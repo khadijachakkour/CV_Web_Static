@@ -19,7 +19,7 @@ jobs:
           node-version: '20.x'
 
       - name: Navigate to Portfolio directory
-        run: cd Portfolio
+        run: cd ./Portfolio
 
       - name: npm install, build, and test
         run: |
